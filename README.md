@@ -1,6 +1,5 @@
 # OpenRomSwitcher
-
-OpenRomSwitcher is an Open Hardware adapter PCB that allows the use of a 27xxx EPROM in place of a smaller PROM. This is useful, for instance, for replacing the KERNAL and other ROMs in Commodore 16 home computers.
+OpenRomSwitcher is an Open Hardware adapter PCB that allows the use of a 27xxx EPROM in place of a smaller (E)PROM. This is useful, for instance, for replacing the KERNAL and other ROMs in Commodore 16 home computers.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenRomSwitcher/master/doc/render-top.png)
 
@@ -29,11 +28,13 @@ To switch between ROMs, you will need one or more switches. Every switch must co
 **IMPORTANT: ALWAYS TURN YOUR DEVICE OFF BEFORE MOVING THE ROM SELECTION SWITCH(ES).**
 
 ### Example
-Reconsidering the initial example of a 27256 EEPROM in the C16, I would use:
+Reconsidering the initial example of a 27256 EEPROM in the C16, I would use the following resistors:
 
 * A13: A 0 ohm resistor in the *Straight* position, since C16 ROMs are 16 KB and thus the A13 line must be connected to the chip.
-* A14: A 10 kohm resistor in the *Switch* position, with a switch on the A14 pad that will allow switching between the ROMs.
+* A14: A 10 kohm resistor in the *Switch* position.
 * A15: A 0 ohm resistor in the *Straight* position, since both 27128 and 27256 ROMs do not have an A15 pin and we can just connect that pin straight.
+
+With this configuration a switch on the A14 pad that will allow switching between the ROMs.
 
 ### License
 OpenRomSwitcher is Open Hardware.
