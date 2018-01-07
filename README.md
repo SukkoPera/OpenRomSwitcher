@@ -1,4 +1,6 @@
-# OpenRomSwitcher is an Open Hardware adapter PCB that allows the use of a 27xxx EPROM in place of a smaller PROM. This is useful, for instance, for replacing the KERNAL and other ROMs in Commodore 16 home computers.
+# OpenRomSwitcher
+
+OpenRomSwitcher is an Open Hardware adapter PCB that allows the use of a 27xxx EPROM in place of a smaller PROM. This is useful, for instance, for replacing the KERNAL and other ROMs in Commodore 16 home computers.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenRomSwitcher/master/doc/render-top.png)
 
